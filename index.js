@@ -4,6 +4,7 @@ let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
+const replit_keep = require(./replit/keep_alive)
 CFonts.say('Lightweight\nWhatsApp Bot', {
   font: 'chrome',
   align: 'center',
